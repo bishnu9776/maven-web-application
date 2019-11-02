@@ -24,8 +24,8 @@ properties([
     {
         sh "${MavenHome}/bin/mvn clean package"
     }
-    stage('EmailNotification')
+    /*stage('EmailNotification')
     {
         emailext body: 'build is done in body tag', subject: 'build is done', to: 'bishnu.green.green@gmail.com, bishnudev9776@gmail.com'
-    }
+    }*/
 }
