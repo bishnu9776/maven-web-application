@@ -14,7 +14,7 @@
 <body>
 <h1 align="center">Welcome to Mithun Technologies.</h1>
 <h1 align="center"><font color="green">Devops engg Bishnu.​</font></p></h1>
-<h3 align="center"><font color="red">Devops Engg Bishnu.​</font></p></h3>
+<h3 align="center"><font color="red">Devops Engg is good for  Bishnu.​</font></p></h3>
 
 <h1 align="center">Very Good Training center for DevOps in Maratha Halli and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
 <hr>
