@@ -1,5 +1,14 @@
 node()
 {
+    
+    //echo "GitHub BranhName ${env.BRANCH_NAME}"
+  //echo "Jenkins Job Number ${env.BUILD_NUMBER}"
+  echo "Jenkins Node Name ${env.NODE_NAME}"
+  
+  echo "Jenkins Home ${env.JENKINS_HOME}"
+  echo "Jenkins URL ${env.JENKINS_URL}"
+  echo "JOB Name ${env.JOB_NAME}"
+    
 def MavenHome = tool name : 'maven 3.6.1' , type : 'maven'
 properties([
     buildDiscarder(logRotator(numToKeepStr: '7')),
